@@ -12,6 +12,7 @@ ts
 compile.bat
 nodemon.json
 dist-ssr
+.env
 *.local
 
 # Editor directories and files
