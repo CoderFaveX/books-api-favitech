@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outDir": "./js", // Output folder for compiled files
+    "module": "ESNext", // Use ES Modules
+    "target": "ESNext", // Specify ECMAScript target
+    "moduleResolution": "Node", // Resolve modules in Node.js style
+    "strict": true, // Enable strict type-checking
+    "esModuleInterop": true, // Enable compatibility for CommonJS modules
+    "skipLibCheck": true, // Skip checking .d.ts files
+    "resolveJsonModule": true, // Allow importing JSON files
+    "declaration": false // Generate .d.ts files for typings
+  },
+  "include": ["ts/**/*.mts", "ts/index.mts"], // Include your .mts files in the `ts` folder
+  "exclude": ["node_modules"] // Exclude unnecessary files
+}
