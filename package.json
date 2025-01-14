@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "preinstall": "npm i typescript",
-    "build": "npm i typescript && tsc -p tsconfig.json",
+    "build": "npm i typescript && npx tsc -p tsconfig.json",
     "start": "node js/index.mjs",
     "dev": "nodemon js/index.mjs"
   },
