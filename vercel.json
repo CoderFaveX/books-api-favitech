@@ -12,7 +12,7 @@
   ],
   "rewrites": [
     {
-      "source": "/js/(.*)",
+      "source": "/api/(.*)",
       "destination": "/js/index.mjs"
     }
   ]
