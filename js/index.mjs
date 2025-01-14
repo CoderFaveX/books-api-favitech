@@ -9,6 +9,11 @@ dotenv.config();
 app.get("/", (req, res) => {
     res.json({ msg: "base api route" });
 });
+app.get("*", (req, res) => {
+    res
+        .status(200)
+        .send(`<h1 style="font-family: verdana;"> Welcome to Google Books Implementation API By Favitech</h1>`);
+});
 app.listen(PORT, () => {
     console.log(`App Instantiated At Port ${PORT}`);
 });
